@@ -1,1 +1,41 @@
-// TODO
+.posts {
+    display: flex;
+    flex-direction: column;
+
+
+    button {
+        background: transparent;
+        border: 0;
+        color: var(--highlight);
+        align-self: flex-start;
+    }
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+
+    strong {
+        font-size: 1.75rem;
+        margin-bottom: 0.5rem;
+    }
+
+    p {
+        margin-bottom: 1rem;
+    }
+
+    .about {
+        display: flex;
+        align-items: center;
+
+        svg {
+            margin-right: 0.5rem;
+        }
+
+        time {
+            margin-right: 1.5rem;
+        }
+    }
+
+}

@@ -1,1 +1,43 @@
-// TODO
+.banner {
+    display: block;
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+    margin-top: -2rem;
+}
+
+.post {
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    strong {
+        color: var(--hightlight);
+    }
+
+    .about {
+        display: flex;
+        align-items: center;
+        margin-bottom: 4rem;
+        
+        div, time {
+            margin-right: 1.5rem;
+            font-size: 1rem;
+            color: var(--info);
+
+            svg {
+                margin-right: 0.5rem;
+            }
+        }
+    }
+
+    h2 {
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    p {
+        margin-bottom: 1rem;
+    }
+}
